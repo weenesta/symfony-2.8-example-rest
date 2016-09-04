@@ -76,7 +76,7 @@ class StackOverFlowerController extends FOSRestController
     /**
      * newStackOverFlowerAction
      * 
-     * @Post("/stackoverflower/new/{name}")
+     * @Get("/stackoverflower/new/{name}")
      * 
      * @param Request $request
      * @return String
@@ -94,7 +94,7 @@ class StackOverFlowerController extends FOSRestController
     /**
      * editStackOverFlowerAction
      * 
-     * @Post("/stackoverflower/edit/{id}/{name}")
+     * @Get("/stackoverflower/edit/{id}/{name}")
      * 
      * @param Request $request
      * @return type
@@ -118,7 +118,7 @@ class StackOverFlowerController extends FOSRestController
     /**
      * deleteStackOverFlowerAction
      * 
-     * @Delete("/stackoverflower/delete/{id}")
+     * @Get("/stackoverflower/delete/{id}")
      * 
      * @param Request $request
      * @return type
