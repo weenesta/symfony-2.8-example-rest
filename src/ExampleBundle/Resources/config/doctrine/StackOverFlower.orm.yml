@@ -1,0 +1,12 @@
+# src/ExampleBundle/Resources/config/doctrine/StackOverFlower.orm.yml
+ExampleBundle\Entity\StackOverFlower:
+    type: entity
+    table: stackoverflower
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 100
