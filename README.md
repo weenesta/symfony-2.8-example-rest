@@ -1,4 +1,4 @@
-Single RESTFul App based on FosRestBundle And Symfony 3.1
+Single RESTFul App based on FosRestBundle And Symfony 2.8
 ========================
 This is a sample application based on symfony 2.8 to show how to do for StackOverFlow Documentation
 
